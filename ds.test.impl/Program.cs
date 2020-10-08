@@ -26,7 +26,7 @@ namespace ds.test.impl
                 int num2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(plugin.Run(num1, num2));
                 Console.WriteLine("Хотели бы вы использовать программу еще раз? (y/n)");
-                if (Console.ReadLine() == "n") consent = false;
+                if (Console.ReadLine() == "n") consent = false; //итоговый выбор
             }
         }
     }
